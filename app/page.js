@@ -3,7 +3,9 @@ export default function Page() {
   return (
     <div>
       <h1>CPRG 306: Web Development 2 - Assignments</h1>
-      <p>Kamalpreet Singh</p>
+      <p>
+        Week 2 Assignment <Page href="week-2"></Page>
+      </p>
       <Page />
     </div>
   );
