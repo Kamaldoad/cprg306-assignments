@@ -6,7 +6,6 @@ export default function Page() {
       <p>
         Week 2 Assignment <Page href="week-2"></Page>
       </p>
-      <Page />
     </div>
   );
 }
