@@ -1,11 +1,11 @@
 import React from 'react';
-import NewItem from './new-item';
+import Button from './Button.js';
 
 
 const Page = () => {
   return (
     <div className='w-[100%] h-[100vh] bg-slate-200 text-black text-center flex justify-center items-center'>
-        <NewItem/>
+        <Button/>
     </div>
   )
 }

@@ -2,7 +2,7 @@
 import React from 'react'
 import { useState } from 'react'
 
-const NewItem = () => {
+const Button = () => {
     const [quantity, setQuantity] = useState(1);
 
 const increment = () => {
@@ -25,4 +25,4 @@ const decrement = () => {
   )
 }
 
-export default NewItem
+export default Button;
