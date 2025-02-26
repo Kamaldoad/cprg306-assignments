@@ -18,7 +18,7 @@ const decrement = () => {
         <button onClick={increment} disabled={quantity < 20 ? false : true} className={`w-20 h-20 bg-green-600 hover:bg-green-700 text-white font-bold rounded-md m-5 ${quantity>=20? 'bg-slate-600 hover:bg-slate-600' :''}`} >
             +
         </button>
-        <button onClick={decrement} className={`w-20 h-20 bg-cyan-600 hover:bg-cyan-700 text-white font-bold rounded-md m-5 ${quantity<=1? 'bg-slate-600 hover:bg-slate-600' :''}`} >
+        <button onClick={decrement} className={`w-[40px] h-20 bg-cyan-600 hover:bg-cyan-700 text-white font-bold rounded-md m-5 ${quantity<=1? 'bg-slate-600 hover:bg-slate-600' :''}`} >
             -
         </button>
     </div>
